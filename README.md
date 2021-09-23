@@ -72,57 +72,69 @@ Python pandas program for school district analysis
 - **How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?**
 
 	**Before replacement** Thomas High School showed up in Top 5 schools at second position for Overall Passing % with **90.9%.**
-		![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/Top_5_schools_before_replace.png)
+				![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/Top_5_schools_before_replace.png)
+	
 	**After replacing 9th grade math and reading scores with "NaN" values and considering the 9th grade student** count for calculating the Overall Passing % ; Thomas High School loses its position in Top 5 schools with **65%**
-		![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/Top_5_schools_after_replace.png)
+				![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/Top_5_schools_after_replace.png)
+	
 	**After re-calculating the Overall Passing % with 9th grade student count removed;** Thomas High School recovers its second position in Top 5 schools with **90.6%**
-		![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/Top_5_schools_after_update.png)
+				![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/Top_5_schools_after_update.png)
 
 - **How does replacing the ninth-grade scores affect the following:**
-	- Math and reading scores by grade 
 
+	**- Math and reading scores by grade**
 
-		-  Math scores for 9th grade changed from 83.6% to NaN for Thomas High School
+	 Math scores for 9th grade changed from 83.6% to NaN for Thomas High School
 		
-	  Before-> 
+	 Before-> 
     ![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/math_scores_by_grade_before.png)
 	  After-> 
     ![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/math_scores_by_grade_after.png)
 
-      -  Reading scores for 9th grade changed from 83.7% to NaN for Thomas High School
+    Reading scores for 9th grade changed from 83.7% to NaN for Thomas High School
 
 	Before-> 
 	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/reading_scores_by_grade_before.png)	
-	After-> 
+		After-> 
 	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/reading_scores_by_grade_after.png)
 	
 
-	- Scores by school spending
-		For Spending Range ($630-644) the Passing Math %, Passing Reading%, and Overall Passing % **decreased** by **6%, 7% and 7%** respectively soon after replacing 			with "NaN". However there was no impact after data for 9th grade was not filtered out and re-analyzed.
+	**- Scores by school spending**
+		
+	For Spending Range ($630-644) the Passing Math %, Passing Reading%, and Overall Passing % **decreased** by **6%, 7% and 7%** respectively soon after replacing 			with "NaN". However there was no impact after data for 9th grade was not filtered out and re-analyzed.
 	
 	Before-> 
 	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/scores_by_school_spending_before.png)	
+	
 	After replace-> 
 	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/scores_by_school_spending_after_replace.png)
+	
 	After filtering out 9th grade ->
 	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/scores_by_school_spending_after_update.png)
 	
-	- Scores by school size
-		For Medium School Size (1000-2000) Passing Math %, Passing Reading%, and Overall Passing % **decreased** by **6%** soon after replacing with "NaN". However there 		  was no impact after data for 9th grade was not filtered out and re-analyzed.
+	**- Scores by school size**
+		
+	For Medium School Size (1000-2000) Passing Math %, Passing Reading%, and Overall Passing % **decreased** by **6%** soon after replacing with "NaN". However there 		  was no impact after data for 9th grade was not filtered out and re-analyzed.
 	
 	Before-> 
 	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/scores_by_school_size_before.png)	
+	
 	After replace-> 
 	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/scores_by_school_size_after_replace.png)
+	
 	After filtering out 9th grade ->
 	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/scores_by_school_size_after_update.png)
 	
-	- Scores by school type
-		For Charter School Type Passing Math %, Passing Reading%, and Overall Passing % **decreased** by **4%,4% and 3%** respectively soon after replacing. However 			there was no impact after data for 9th grade was not filtered out and re-analyzed.
+	**- Scores by school type**
+		
+	For Charter School Type Passing Math %, Passing Reading%, and Overall Passing % **decreased** by **4%,4% and 3%** respectively soon after replacing. However there was no impact after data for 9th grade was not filtered out and re-analyzed.
+	
 	Before-> 
 	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/scores_by_school_type_before.png)	
+	
 	After replace-> 
 	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/scores_by_school_type_after_replace.png)
+	
 	After filtering out 9th grade ->
 	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/scores_by_school_type_after_update.png)
 		
