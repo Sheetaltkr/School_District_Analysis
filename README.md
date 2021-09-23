@@ -46,8 +46,11 @@ Python pandas program for school district analysis
 	- School performance based on the type of school
 
 ## Resources
-Data source: schools_complete.csv, students_complete.csv
+Data source: [schools_complete.csv](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Resources/schools_complete.csv), [students_complete.csv](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Resources/students_complete.csv)
+
 Software: Python 3.7, Pandas, Anaconda, JupyterNotebook
+
+Program code: [PyCitySchools_Challenge](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb)
 
 
 ## Results
