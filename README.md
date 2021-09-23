@@ -54,6 +54,10 @@ Python pandas program for school district analysis
 	Average Math Score, Passing Math %, Passing Reading%, and Overall Passing %  **decreased** by **0.1%,0.2%,0.3% and 0.1%** respectively. Average Reading Score was not impacted.
 
 -	**How is the school summary affected?**
+	Before-> 
+	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/School_summary_before.png)
+	After-> 
+	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/School_summary_after.png)
 
 	**For Thomas High School**:
 	Passing Math %, Passing Reading%, and Overall Passing % **decreased** by **26%, 27%,26%** respectively  Average Math Score and Average Reading Score were not impacted
