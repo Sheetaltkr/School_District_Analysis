@@ -147,6 +147,6 @@ Python pandas program for school district analysis
 
 2. **Top schools list on basis of Overall Passing % gets impacted** with **Thomas High School** losing its position from 2nd to 8th. Upon re-running the analysis this impact is 	no longer visible.
 
-3. **Grade level Reading scores and Math scores % are impacted** for 9th grade in Thomas High School. They show "NAN" instead of numbers.
+3. **Grade level Reading scores and Math scores % are impacted** for 9th grade in Thomas High School. They show "NAN" instead of numbers which makes the data useless.
 
 4.  **School performance based on the budget per student, the school size and type of school is impacted** and show reduced values for Passing Math %, Passing Reading%, and Overall Passing %. Upon re-running the analysis this impact is no longer visible.
