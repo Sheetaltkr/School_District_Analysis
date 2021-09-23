@@ -156,3 +156,11 @@ Program code: [PyCitySchools_Challenge](https://github.com/Sheetaltkr/School_Dis
 3. **Grade level Reading scores and Math scores % are impacted** for 9th grade in Thomas High School. They show "NAN" instead of numbers which makes the data useless.
 
 4.  **School performance based on the budget per student, the school size and type of school is impacted** and show reduced values for Passing Math %, Passing Reading%, and Overall Passing %. Upon re-running the analysis this impact is no longer visible.
+
+## Other Observations
+
+-	For Lower school spending ranges the performance values are higher
+-	For Lower school sizes the performance values are higher
+-	For Charter school type the performance values are higher
+
+
