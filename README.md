@@ -45,6 +45,9 @@ Python pandas program for school district analysis
 	- School performance based on the school size 
 	- School performance based on the type of school
 
+## Resources
+Data source: schools_complete.csv, students_complete.csv
+Software: Python 3.7, Pandas, Anaconda, JupyterNotebook
 
 
 ## Results
