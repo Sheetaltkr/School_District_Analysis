@@ -52,6 +52,7 @@ Python pandas program for school district analysis
  - **How is the district summary affected?**
 	
 	Average Math Score, Passing Math %, Passing Reading%, and Overall Passing %  **decreased** by **0.1%,0.2%,0.3% and 0.1%** respectively. Average Reading Score was not impacted.
+	
 	Before-> 
 	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/District_summary_before.png)
 	After-> 
@@ -71,11 +72,11 @@ Python pandas program for school district analysis
 - **How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?**
 
 	**Before replacement** Thomas High School showed up in Top 5 schools at second position for Overall Passing % with **90.9%.**
-
+		![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/Top_5_schools_before_replace.png)
 	**After replacing 9th grade math and reading scores with "NaN" values and considering the 9th grade student** count for calculating the Overall Passing % ; Thomas High School loses its position in Top 5 schools with **65%**
-
+		![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/Top_5_schools_after_replace.png)
 	**After re-calculating the Overall Passing % with 9th grade student count removed;** Thomas High School recovers its second position in Top 5 schools with **90.6%**
-	
+		![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/Top_5_schools_after_update.png)
 
 - **How does replacing the ninth-grade scores affect the following:**
 	- Math and reading scores by grade 
@@ -106,7 +107,7 @@ Python pandas program for school district analysis
 
 1. 
 
-2.
+2. THS moved from 2nd top passing% to 8th position
 
 3.
 
