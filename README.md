@@ -47,21 +47,27 @@ Python pandas program for school district analysis
 
 
 
-##Results
+## Results
 
  - **How is the district summary affected?**
 	
 	Average Math Score, Passing Math %, Passing Reading%, and Overall Passing %  **decreased** by **0.1%,0.2%,0.3% and 0.1%** respectively. Average Reading Score was not impacted.
+	Before-> 
+	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/District_summary_before.png)
+	After-> 
+	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/District_summary_after.png)
 
 -	**How is the school summary affected?**
+	
+	For Thomas High School:
+	Passing Math %, Passing Reading%, and Overall Passing % **decreased** by **26%, 27%,26%** respectively  Average Math Score and Average Reading Score were not impacted
+
 	Before-> 
 	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/School_summary_before.png)
 	After-> 
 	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/School_summary_after.png)
 
-	**For Thomas High School**:
-	Passing Math %, Passing Reading%, and Overall Passing % **decreased** by **26%, 27%,26%** respectively  Average Math Score and Average Reading Score were not impacted
-
+	
 - **How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?**
 
 	**Before replacement** Thomas High School showed up in Top 5 schools at second position for Overall Passing % with **90.9%.**
@@ -94,7 +100,7 @@ Python pandas program for school district analysis
 	- Scores by school size
 	- Scores by school type
 
-##Summary
+## Summary
 
  Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
