@@ -68,7 +68,8 @@ Program code: [PyCitySchools_Challenge](https://github.com/Sheetaltkr/School_Dis
 	
 	For Thomas High School:
 	Passing Math %, Passing Reading%, and Overall Passing % **decreased** by **26%, 27%,26%** respectively  Average Math Score and Average Reading Score were not impacted
-
+	This impact is not present after re-running the analysis by filtering out 9th grade data.
+	
 	Before-> 
 	![](https://github.com/Sheetaltkr/School_District_Analysis/blob/main/Images/School_summary_before.png)
 	After-> 
